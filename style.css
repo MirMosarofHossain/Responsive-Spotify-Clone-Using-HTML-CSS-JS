@@ -11,7 +11,7 @@
 }
 
 .left{
-    width: 20vw;
+    width: 24vw;
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -26,7 +26,7 @@
     border-radius: 9px;
     box-sizing: border-box;
     margin-top: 8px;
-    width: 92%;
+    width: 95%;
 }
 .left-top ul li{
     list-style: none;
@@ -52,13 +52,99 @@
 .left-bottom{
     background-color: #121212;
     color: white;
-    padding: 20px 0px 20px 20px;
+    padding: 20px 1% 20px 20px;
     border-radius: 9px;
     box-sizing: border-box;
     margin-top: 8px;
-    width: 92%;
+    width: 95%;
     height: 200px;
 }
-.right{
-    width: 80vw;
+
+.your-library{
+    width: 95%;
+    color: #a4a4a4;
 }
+.your-library img{
+    height: 25px;
+   filter: invert(1);
+
+}
+.your-library span{
+    font-size: 18px;
+    margin-left: 10px;
+}
+#addLogo{
+    height: 17px;
+    color:#a4a4a4; 
+    float: right;
+}
+
+/* .left-footer{
+ 
+} */
+.left-footer a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #a0a0a0;
+}
+.left-footer-r1{
+    margin-top: 25px;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.left-footer-r2{
+    margin-top: 15px;
+    width: 80%;   
+}
+.left-footer-r2 a span{
+    margin-right: 20px;   
+}
+
+/* css for right section  start */
+
+.right{
+    background-color: #101010;
+    width: 76vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+.nav{
+    width: 98%;
+    height: 50px;
+    background-color: #101010;
+    display: flex;
+    align-items: center;
+}
+
+#less{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav img{
+    height: 16px;
+    filter: invert(1);
+}
+#grater{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+}
+.nav-button{
+    background-color: #dddddd;
+    justify-self: end;
+}
+
+
+/* css for right section  end */

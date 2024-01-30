@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,24 +8,64 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
+
 <body>
     <div class="container">
         <div class="left b">
             <div class="left-top">
-            <ul>
-                <li><img src="spotifyLogo.svg" alt=""></li>
-                <li><i class="fa-solid fa-house"></i>Home</li>
-                <li ><i class="fa-solid fa-magnifying-glass"></i> Search</li>
-            </ul>
+                <ul>
+                    <li><img src="spotifyLogo.svg" alt=""></li>
+                    <li><i class="fa-solid fa-house"></i>Home</li>
+                    <li><i class="fa-solid fa-magnifying-glass"></i> Search</li>
+                </ul>
+            </div>
+            <div class="left-bottom">
+                <div class="your-library">
+                    <img src="libraryLogo.svg" alt="" height=""> <span>Your Library</span>
+                    <img id="addLogo" src="addLogo.svg" alt="">
+                </div>
+                <div class="left-footer">
+                    <div class="left-footer-r1">
+                        <a href="https://www.spotify.com/in-en/legal/" id=""><span>Legal</span></a>
+                        <a href="https://www.spotify.com/in-en/privacy/" id=""><span>Privacy Center</span></a>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/" id=""><span>Privacy
+                                Policy</span></a>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/" id=""><span>Cookies</span></a>
+                    </div>
+
+                    <div class="left-footer-r2">
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" id=""><span>About
+                                Ads</span></a>
+                        <a href="https://www.spotify.com/in-en/accessibility/" id=""><span>Accessibility</span></a>
+                    </div>
+                    <div class="left-footer-r2">
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/" id=""><span>Cookies</span></a>
+                    </div>
+                </div>
+
+            </div>
         </div>
-        <div class="left-bottom">
-            
+
+        <!-- right section -->
+
+        <div class="right b">
+              <nav class="nav b">
+                <div id="less"><img src="lessLogo.svg" alt=""></div>
+                <div id="grater"> <img src="graterLogo.svg" alt=""></div>
+                
+                <div class="nav-button">
+                    <button>sign up</button>
+                    <button id="b">sign in</button>
+                </div>
+                
+              </nav>
         </div>
-        </div>
-        <div class="right b"></div>
+        <!-- right section end -->
+
     </div>
-    
-    
+
+
     <script src="script.js"></script>
 </body>
+
 </html>
