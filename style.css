@@ -116,6 +116,7 @@
     background-color: #101010;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 #less{
@@ -131,6 +132,14 @@
     height: 16px;
     filter: invert(1);
 }
+.nav-logo{
+    display: flex;
+}
+.nav-button{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
 #grater{
     height: 32px;
     width: 32px;
@@ -141,10 +150,109 @@
     justify-content: center;
     margin-left: 8px;
 }
-.nav-button{
-    background-color: #dddddd;
-    justify-self: end;
+
+#sign-up{
+    font-size: 16px;
+    color: #a6a6a6;
+    box-sizing: border-box;
+    background-color: transparent;
+    font-weight: 700;
+    border: none;
+    margin-right: 25px;
 }
+#log-in{
+    padding: 0px 32px;
+    height: 90%;
+    font-size: 16px;
+    border-radius: 24px;
+    color: black;
+    box-sizing: border-box;
+    background-color: #FFFFFF;
+    font-weight: 700;
+    border: none;
+    margin-right: 25px;
+}
+#sign-up:hover{
+    color: #FFFFFF;
+    font-size: 17px;
+}
+#log-in:hover{
+    transform: scale(1.05);
+}
+
+/* hero-section */
+
+.hero{
+    background-color: #1e1e1e;
+    width: 98%;
+    border: 2px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.hero-head >h1{
+    color: white;
+}
+.play-list{
+    width: 95%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px solid white;
+}
+.card{
+    width: 166px;
+    padding: 5px 15px 15px 15px;
+    /* border: 2px solid white; */
+    color: #dddddd;
+    border-radius: 6px;
+    background-color: #171717;
+    position: relative;
+    margin-bottom: 20px;
+}
+.card > *{
+    padding-top: 10px;
+}
+.card img{
+width: 100%;
+object-fit: contain;
+border-radius: 6px;
+}
+.card h3{
+    color: #fcfcfc;
+}
+.card p{
+    color: #a2a2a2;
+}
+.card .play-logo{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    background-color: #1ed760;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 35%;
+    right: 13%;
+    visibility: hidden;
+    transition: all .3s ease-in-out;
+}
+.card:hover{
+    background-color:#272727;
+}
+.card:hover .play-logo{
+    visibility: visible;
+    bottom: 40%;
+}
+.play-logo:hover{
+    transform: scale(1.05);
+}
+
+
+
 
 
 /* css for right section  end */
